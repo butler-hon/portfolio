@@ -1,8 +1,10 @@
 body {
      padding-top: 100px; }
 .A{
-    background-image: url(../../../../back.jpg);
-    background-size: cover;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 30px;
 }
 .B{
     color: red;
@@ -11,6 +13,7 @@ body {
     font-family: cursive;
     font-weight: bolder;
     font-size: x-large;
+    
 }
 .navbar img{
     border-radius: 60%;
@@ -31,5 +34,21 @@ body {
  .C{
      width: 100%;
      margin-left: 20px;
+     background-color: rgb(212, 205, 206);
+     padding: 10px;
  }
- 
+ .D{
+     background-color: rgb(255, 255, 255);
+ }
+ .carousel-caption h1{
+       color: rgb(250, 7, 7);
+ }
+ .carousel-caption h1 span{
+     color: rgb(0, 0, 0);
+     font-size: 25px;
+ }
+ .carousel-caption p{
+     color: black;
+     font-size: 20px;
+     font-weight: bolder;
+ }
