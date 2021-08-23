@@ -1,0 +1,35 @@
+body {
+     padding-top: 100px; }
+.A{
+    background-image: url(../../../../back.jpg);
+    background-size: cover;
+}
+.B{
+    color: red;
+}
+.navbar-brand{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.navbar img{
+    border-radius: 60%;
+     height: 80px;
+     width: 80px;
+     margin: 5px;
+    
+}
+.navbar img:hover{
+    transition: linear;
+    opacity: .5s;
+}
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease;
+    height: 50vh;
+  }
+  
+ .C{
+     width: 100%;
+     margin-left: 20px;
+ }
+ 
