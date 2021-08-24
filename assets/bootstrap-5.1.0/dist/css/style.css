@@ -64,16 +64,33 @@
      background-color: black;
      margin-top: 20px;
      height: 250px;
+    
  }
+ /*  */
+ @keyframes testSlide {
+    from {
+      margin-left: 0%;
+      width: 50%;
+    }
+    to {
+      margin-left: 30%;
+      width: 100%;
+    }
+  }
+ /*  */
  .E h2{
      color: white;
      text-align: center;
      padding: 20px;
+     animation-duration: 3s;
+     animation-name: testSlide;
  }
  .E h3{
     color: white;
     text-align: center;
     padding: 20px;
+    animation-duration: 3s;
+    animation-name: testSlide;
  }
  .E :hover{
     transform: scale(1.5);
@@ -107,9 +124,9 @@
    
  }
  .border{
-     height: 5px;
-     width: 25px;
-     color: red !important;
+     height: 4px;
+     width: 35px;
+     background: red;
  }
  .G h4{
      text-align: center;
@@ -137,6 +154,9 @@
      color: white;
      margin-left: 10px;
  }
+ .G .border{
+     background: white;
+ }
  @viewport{
      zoom: -1.0;
      width: auto;
@@ -145,3 +165,50 @@
     zoom: -1.0;
     width: auto;
  }
+ .H{
+     margin-top: 10px;
+ }
+ .H h2{
+     font-family: cursive;
+     font-weight: bold;
+     text-align: center;
+ }
+ .H .border{
+     height: 6px;
+ }
+
+ /* ///import/// */
+ .entrance-animation
+{
+  position: relative;
+  color: rgb(0, 0, 0);
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+.entrance-animation::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(83, 8, 8);
+  opacity: .4;
+  z-index: 10;
+  transition: width 0.5s ease;
+  transition-delay: 0.5s;
+}
+.entrance-animation.active
+{
+  width: 100%;
+}
+.entrance-animation.active::before
+{
+  width: 0%;
+}
+ /* ////import ends/// */
