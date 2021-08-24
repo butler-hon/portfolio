@@ -13,6 +13,7 @@ body {
     font-family: cursive;
     font-weight: bolder;
     font-size: x-large;
+    color: red;
     
 }
 .navbar img{
@@ -21,10 +22,6 @@ body {
      width: 80px;
      margin: 5px;
     
-}
-.navbar img:hover{
-    transition: linear;
-    opacity: .5s;
 }
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease;
@@ -51,4 +48,41 @@ body {
      color: black;
      font-size: 20px;
      font-weight: bolder;
+ }
+ .E{
+     background-color: black;
+     margin-top: 10px;
+     height: 200px;
+ }
+ .E h2{
+     color: white;
+     text-align: center;
+     padding: 20px;
+ }
+ .E h3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+ .E :hover{
+    transform: scale(1.5);
+    /* transition: 0.7s linear; */
+    opacity: .7;
+    cursor: s-resize;
+    transition:cubic-bezier(1, 0, 0, 1);
+ }
+ .F{
+     margin-top: 20px;
+     padding: 20px;
+ }
+  .F i{
+     color: red;
+     font-size: 34px;
+ } 
+ .F h3{
+     font-weight: bold;
+ }
+ .F P{
+   text-align: start;
+   font-weight: bold;
  }
