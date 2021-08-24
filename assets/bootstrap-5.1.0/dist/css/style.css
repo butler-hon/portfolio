@@ -23,13 +23,16 @@ body {
      margin: 5px;
     
 }
+.carousel-slide{
+    height: 100vh;
+}
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease;
-    height: 50vh;
+   
   }
   
  .C{
-     width: 100%;
+     
      margin-left: 20px;
      background-color: rgb(212, 205, 206);
      padding: 10px;
@@ -51,8 +54,8 @@ body {
  }
  .E{
      background-color: black;
-     margin-top: 10px;
-     height: 200px;
+     padding-top: 20px;
+     height: 250px;
  }
  .E h2{
      color: white;
