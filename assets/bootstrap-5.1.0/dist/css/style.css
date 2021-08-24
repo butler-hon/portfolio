@@ -35,8 +35,8 @@
      margin-left: 20px;
      background-color: rgb(212, 205, 206);
      padding: 10px;
-     min-width: min-content;
-     min-height: min-content;
+     min-width: min-content !important;
+     min-height: min-content !important;
  }
  .D{
      background-color: rgb(255, 255, 255);
