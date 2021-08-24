@@ -1,14 +1,16 @@
-/* body {
-     padding-top: 100px; } */
-.A{
+.D{ background-image:url(../../../../bk.jpg) ; background-attachment:fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .A{
     color: black;
     font-size: 30px;
     font-family: cursive;
     margin-top: 30px;
-}
-.B{
+} */
+/* .B{
     color: red;
-}
+} */
 .navbar-brand{
     margin-left: 10px;
     font-family: cursive;
@@ -20,7 +22,7 @@
     border-radius: 60%;
      height: 80px;
      width: 80px;
-     margin: 5px;
+     /* margin: 5px; */
     
 }
 
@@ -33,14 +35,13 @@
  .C{
      margin-top: 20px;
      margin-left: 20px;
-     background-color: rgb(212, 205, 206);
+     background-color: rgb(212, 205, 206) opacity 0.9;
      padding: 10px;
      min-width: min-content !important;
      min-height: min-content !important;
  }
- .D{
-     background-color: rgb(255, 255, 255);
- }
+ 
+ 
  .carousel-caption{
      background-color: white;
      opacity: .6;
@@ -100,6 +101,7 @@
     /* transition:cubic-bezier(1, 0, 0, 1); */
  }
  .F{
+     background-color: rgb(175, 171, 171);
      margin-top: 20px;
      padding: 40px;
      height: 300px;
@@ -176,6 +178,9 @@
  .H .border{
      height: 6px;
  }
+ .H img{
+     margin-top: 50px;
+ }
 
  /* ///import/// */
  .entrance-animation
@@ -197,7 +202,7 @@
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(83, 8, 8);
+  background-color: rgb(0, 0, 0);
   opacity: .4;
   z-index: 10;
   transition: width 0.5s ease;
@@ -212,3 +217,14 @@
   width: 0%;
 }
  /* ////import ends/// */
+.I{
+    background-image: url(../../../../13.jpg);
+    padding: 20px;
+}
+.J{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
