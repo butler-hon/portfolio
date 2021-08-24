@@ -1,5 +1,5 @@
-body {
-     padding-top: 100px; }
+/* body {
+     padding-top: 100px; } */
 .A{
     color: black;
     font-size: 30px;
@@ -31,10 +31,12 @@ body {
   }
   
  .C{
-     
+     margin-top: 20px;
      margin-left: 20px;
      background-color: rgb(212, 205, 206);
      padding: 10px;
+     min-width: min-content;
+     min-height: min-content;
  }
  .D{
      background-color: rgb(255, 255, 255);
