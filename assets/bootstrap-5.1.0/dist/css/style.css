@@ -133,3 +133,11 @@ body {
      color: white;
      margin-left: 10px;
  }
+ @viewport{
+     zoom: 1.0;
+     width: extend-to-zoom;
+ }
+ @-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+ }
