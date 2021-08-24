@@ -99,7 +99,9 @@ body {
  .G{
     margin-top: 10px;
     background-image: url(../../../../back.jpg);
-    height: 600px;
+    /* height: 600px; */
+    min-height: min-content;
+    min-width: min-content;
    
  }
  .border{
@@ -134,10 +136,10 @@ body {
      margin-left: 10px;
  }
  @viewport{
-     zoom: 1.0;
-     width: extend-to-zoom;
+     zoom: -1.0;
+     width: auto;
  }
  @-ms-viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
+    zoom: -1.0;
+    width: auto;
  }
