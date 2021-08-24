@@ -23,12 +23,10 @@ body {
      margin: 5px;
     
 }
-.carousel-slide{
-    height: 100vh;
-}
+
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease;
-   
+    height: 50vh;
   }
   
  .C{
@@ -54,7 +52,7 @@ body {
  }
  .E{
      background-color: black;
-     padding-top: 20px;
+     margin-top: 20px;
      height: 250px;
  }
  .E h2{
