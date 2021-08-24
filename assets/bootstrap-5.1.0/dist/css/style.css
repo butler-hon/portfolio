@@ -10,10 +10,10 @@ body {
     color: red;
 }
 .navbar-brand{
+    margin-left: 10px;
     font-family: cursive;
     font-weight: bolder;
     font-size: x-large;
-    color: red;
     
 }
 .navbar img{
@@ -27,6 +27,7 @@ body {
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease;
     height: 50vh;
+    
   }
   
  .C{
@@ -37,6 +38,13 @@ body {
  }
  .D{
      background-color: rgb(255, 255, 255);
+ }
+ .carousel-caption{
+     background-color: white;
+     opacity: .6;
+     border-radius: 40%;
+     transition: 0.5 linear;
+     transform: rotate3d(0);
  }
  .carousel-caption h1{
        color: rgb(250, 7, 7);
@@ -67,14 +75,15 @@ body {
  }
  .E :hover{
     transform: scale(1.5);
-    /* transition: 0.7s linear; */
+    transition: 0.7s linear;
     opacity: .7;
     cursor: s-resize;
-    transition:cubic-bezier(1, 0, 0, 1);
+    /* transition:cubic-bezier(1, 0, 0, 1); */
  }
  .F{
      margin-top: 20px;
-     padding: 20px;
+     padding: 40px;
+     height: 300px;
  }
   .F i{
      color: red;
@@ -86,4 +95,41 @@ body {
  .F P{
    text-align: start;
    font-weight: bold;
+ }
+ .G{
+    margin-top: 10px;
+    background-image: url(../../../../back.jpg);
+    height: 600px;
+   
+ }
+ .border{
+     height: 5px;
+     width: 25px;
+     color: red !important;
+ }
+ .G h4{
+     text-align: center;
+     color: rgb(255, 255, 255);
+     padding-top: 10px;
+     font-weight: bold;
+    font-family: cursive;
+ }
+ .G h6{
+     color: rgb(231, 22, 22);
+     text-align: center;
+     font-weight: bold;
+ }
+ .G img{
+     margin-top: 5px;
+     height: 200px;
+     width: 280px;
+ }
+ .G img:hover{
+    transform: scale(1.25);
+    transition: 0.6s linear;
+    opacity: .9;
+ }
+ .G p{
+     color: white;
+     margin-left: 10px;
  }
